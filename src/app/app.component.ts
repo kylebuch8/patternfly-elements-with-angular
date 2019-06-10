@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
+import "@patternfly/pfe-card";
+import "@patternfly/pfe-cta";
+import "@patternfly/pfe-accordion";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'patternfly-elements-with-angular';
+  @ViewChild("accordion") accordion: ElementRef;
+
+  ngAfterViewInit() {
+    this.accordion.nativeElement.toggle(0);
+  }
 }

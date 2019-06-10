@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --pfe-card--BorderColor: #eee;
+  --pfe-card--BorderWeight: 1px;
+}
+
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+app-root {
+  display: block;
+}
+
+section {
+  margin-bottom: 36px;
+}
+
+@media (min-width: 768px) {
+  app-root {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  app-root {
+    width: 1140px;
+    margin: auto;
+  }
+}
