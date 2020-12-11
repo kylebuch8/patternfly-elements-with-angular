@@ -1,6 +1,6 @@
 # PatternFly Elements with Angular
 
-This app demonstrates how to integrate [PatternFly Elements](https://github.com/patternfly/patternfly-elements) with Angular.
+This app demonstrates how to integrate [PatternFly Elements](https://patternflyelements.org) with Angular.
 
 ---------
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.

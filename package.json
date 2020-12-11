@@ -22,7 +22,7 @@
     "@patternfly/pfe-accordion": "^1.0.0-prerelease.16",
     "@patternfly/pfe-card": "^1.0.0-prerelease.16",
     "@patternfly/pfe-cta": "^1.0.0-prerelease.16",
-    "@patternfly/pfe-layouts": "^1.0.0-prerelease.16",
+    "@patternfly/pfe-styles": "^1.0.0",
     "@webcomponents/webcomponentsjs": "^2.2.10",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
